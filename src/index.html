@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>web page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="weblogo" src="https://jovian.com/jovian_logo.svg" >
+
+    </div>
+     
+    <img id="banner" src="banner.jpg" height="380" width="100%">
+    <h1 style="text-align: center; color: indigo;">About  Jovian</h1>
+     
+    <!--about page-->
+    <div id="about">
+        <div id="description">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Doloremque dolorum illum quasi,cumque eius delectus optio adipisci placeat
+                numquam labore tempora.Corporis laborum dignissimos
+                animi delectus laudantium quibusdam? Aliquid, earum?</p>
+            
+            <p>  
+                We also offer 2 industy -focused bootcamps:
+                <ol>
+                    <li>
+                        <a href="https://www.jovian.com/full-stack-developer-bootcamp">Jovian, Full Stack Debvelper Bootcamp</a></li>
+                    <li>
+                        <a href="https://www.jovian.com/data-science-bootcamp" > Data Science Bootcamp</a></li>
+                    </li> 
+                </ol>
+            </p>    
+        </div>
+        <div id="team">
+            <img  id="team-image" src="team.jpg" height="240">
+        </div>
+    </div>
+       
+     <!--job -->
+     <h1 style="text-align: center;">Job Oppotunities</h1>
+     <div id="job">
+        <table id="job-table">
+            <tr class="job-header-row">
+                <th rowspan="2">job title</th>
+                <th colspan="2">location</th>
+                <th rowspan="2">posted on</th>
+                <th rowspan="2">salary</th>
+            </tr>
+            <tr>
+                <th>city</th>
+                <th>country</th>
+            </tr>
+            <tr class="job-data-row">
+                <td>front end Debvelper</td>
+                <td>bangluru</td>
+                <td>india</td>
+                <td>3,00000</td>
+                <td>3 rd Feb,2025</td>
+            </tr>
+            <tr class="job-data-row">
+                <td>back end Debvelper</td>
+                <td>chennai </td>
+                <td>india</td>
+                <td>4,00000</td>
+                <td>3 rd Feb,2025</td>
+            </tr>
+            <tr class="job-data-row">
+                <td>data scientist</td>
+                <td>mumbai</td>
+                <td>india</td>
+                <td>5,00000</td>
+                <td>3 rd Feb,2025</td>
+            </tr>
+        </table>
+    
+     </div>
+     <!--applicartion form-->
+     <div id="application">
+        <div id="application-form">
+            <h1 style="text-align: center;">Submit Your Application</h1>
+            <div class="form group">
+                <label for="name">Enter Name:</label>
+                <input type="text" name="name" placeholder="Joe Doe" required>
+            </div>
+            <div class="form group">
+                <label for="email">Enter email:</label>
+                <input type="email" name="email" placeholder="JoeDoe@gmail.com" required>
+            </div>
+            <div class="form group">
+                <label for="number">Enter Number:</label>
+                <input type="number" name="number" placeholder="+9292929292" required>
+            </div>
+            <div class="form group">
+                <label for="dob">DOB:</label>
+                <input type="date" name="dob" required>
+            </div>
+            <div class="form group">
+                <label for="position">Position appplied for:</label>
+            <select id="position" name="position">
+                <option>Select one position:</option>
+                <option value="frontend developer">FrontEnd Developer</option>
+                <option value="backend developer">BackEnd Developer</option>
+                <option value="data secientist">Data Secintist</option>
+    
+            </select>
+            <div class="form-group">
+                <label for="resume">Upload Resume</label>
+                <input type="file" name="resume" id="resume" accept="pdf,.doc,.docx" required>
+            </div>
+            <div class="form-group">
+                <label for="coverletter">Cover Letter</label>
+                <textarea id="coverletter" rows="5" coverletter" required placeholder="Explain what makes you suitable for the job..."> </textarea>
+            </div>
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="submit Application">
+            </div>
+            
+        </div>
+     </div>  
+    <!--footer-->
+    <div id="footer">
+        <ul id="footer-links">
+            <li><a href="https://www.jovian.com/learn" target="_blank">Courses</a></li>
+            <li><a href="https://www.jovian.com/learn" target="_blank">Programms</a></li>
+            <li><a href="https://youtube.com/@jovianhq" target="_blank">Youtube</a></li>
+        </ul>
+        <span class="copyright">© 2025, Jovian</span>
+    </div>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
